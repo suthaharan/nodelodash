@@ -11,7 +11,7 @@ _.forEach(newArray, function(item){
 	console.log('Slice array variables ' + item);
 });
 
-
+// Take a specific number of elements from the end of the array 
 newArray = _.takeRight(numberArray, 3);
 
 console.log('\n\nTake certain number of items from the end of array');
