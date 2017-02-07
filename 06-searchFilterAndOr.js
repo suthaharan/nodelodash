@@ -25,7 +25,7 @@ _.forEach(everySearchedCarCollection, function(car) {
 });
 
 console.log("\n\nFiltered car log");
-// Find every search results that matches the query
+// Find every search results that matches the query.
 var filteredSearchedCarCollection = _.filter(carCollection, function(O) {
     return O.name == "Honda" || O.year == "2015";
 });

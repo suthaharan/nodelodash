@@ -4,9 +4,9 @@ var numberArray = [1, 2, 3, 4, 5, 6];
 
 var newArray = [];
 // Array slice to take a specific number of elements from the array
+console.log('\n\nSlicing array');
 newArray = _.slice(numberArray, 0 , 3);
 
-console.log('\n\nSlicing array');
 _.forEach(newArray, function(item){
 	console.log('Slice array variables ' + item);
 });
